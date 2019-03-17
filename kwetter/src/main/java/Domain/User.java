@@ -1,14 +1,17 @@
-package Domain;
-
-import com.sun.xml.internal.bind.v2.TODO;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
+import javax.persistence.*;
 import java.awt.*;
 import java.util.List;
 
+@NamedQuery(name = "getAllUsers", query = "select U from User U")
+@Entity
 public class User {
     private String username;
-    private final int id;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private final long id;
     private Image profilePicture;
     private String bio;
     private List<Tweet> tweets;
@@ -21,7 +24,7 @@ public class User {
         this.id = id;
     }
 
-    public int getId(){
+    public long getId(){
         return id;
     }
 
@@ -65,7 +68,7 @@ public class User {
         throw new NotImplementedException();
     }
 
-    public Tweet getTweetById(int id){
+    public Tweet getTweetById(long id){
         throw new NotImplementedException();
     }
 

@@ -1,13 +1,18 @@
-package Domain;
-
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
+import javax.persistence.*;
 import java.util.List;
 
+@NamedQuery(name = "getAll", query = "select T from Tweet T")
+@Entity
 public class Tweet {
 
-    private final int id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private final long id;
     private String body;
+
+    @ManyToOne(optional = false)
     private User user;
     private List<User> likes;
     private List<User> mentions;
@@ -19,7 +24,7 @@ public class Tweet {
         this.id = id;
     }
 
-    public int getId(){
+    public long getId(){
         return id;
     }
 
