@@ -1,4 +1,4 @@
-package DAO.API;
+package API;
 
 import Annotations.TokenRequired;
 import Domain.Role;
@@ -6,16 +6,14 @@ import Service.TweetService;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 @Path("tweets")
 @Stateless
 @Produces(MediaType.APPLICATION_JSON)
-@TokenRequired(requiredPermisionGroup = Role.User)
+//@TokenRequired(requiredPermissionGroup = Role.User)
 public class TweetResource {
 
     @Inject
@@ -26,5 +24,15 @@ public class TweetResource {
         return Response.ok(tweetService.getAllTweets()).build();
     }
 
+    @GET
+    @Path("search")
+    public Response searchTweets(@QueryParam("searchTerm") String searchTerm) {
+        return Response.ok(tweetService.searchTweets(searchTerm)).build();
+    }
 
+    @GET
+    @Path("{id}")
+    public Response getTweet(@PathParam("id") long id) {
+        return Response.ok(tweetService.getTweetById(id)).build();
+    }
 }

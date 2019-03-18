@@ -12,6 +12,7 @@
     </schema>
     <schema id="3" parent="1" name="Kwetter">
       <Current>1</Current>
+      <Visible>1</Visible>
       <Collation>latin1_swedish_ci</Collation>
     </schema>
     <schema id="4" parent="1" name="Student">
@@ -920,5 +921,255 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
+    <table id="232" parent="3" name="Followers"/>
+    <table id="233" parent="3" name="Likes"/>
+    <table id="234" parent="3" name="Mentions"/>
+    <table id="235" parent="3" name="Roles"/>
+    <table id="236" parent="3" name="Topics"/>
+    <table id="237" parent="3" name="Tweets"/>
+    <table id="238" parent="3" name="UserRoles"/>
+    <table id="239" parent="3" name="Users"/>
+    <column id="240" parent="232" name="UserIdFollower">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="241" parent="232" name="UserIdFollowed">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="242" parent="232" name="UserIdFollowed_idx">
+      <ColNames>UserIdFollowed</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="243" parent="232" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>UserIdFollower
+UserIdFollowed</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="244" parent="232" name="UserIdFollower">
+      <ColNames>UserIdFollower</ColNames>
+      <RefSchemaName>Kwetter</RefSchemaName>
+      <RefTableName>Users</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="245" parent="232" name="UserIdFollowed">
+      <ColNames>UserIdFollowed</ColNames>
+      <RefSchemaName>Kwetter</RefSchemaName>
+      <RefTableName>Users</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="246" parent="233" name="UserId">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="247" parent="233" name="TweetId">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="248" parent="233" name="TweetId_idx">
+      <ColNames>TweetId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="249" parent="233" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>UserId
+TweetId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="250" parent="233" name="UserId_Likes">
+      <ColNames>UserId</ColNames>
+      <RefSchemaName>Kwetter</RefSchemaName>
+      <RefTableName>Users</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="251" parent="233" name="TweetId_Likes">
+      <ColNames>TweetId</ColNames>
+      <RefSchemaName>Kwetter</RefSchemaName>
+      <RefTableName>Tweets</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="252" parent="234" name="UserId">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="253" parent="234" name="TweetId">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="254" parent="234" name="fk_Mentions_Tweet_idx">
+      <ColNames>TweetId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="255" parent="234" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>UserId
+TweetId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="256" parent="234" name="fk_Mentions_User">
+      <ColNames>UserId</ColNames>
+      <RefSchemaName>Kwetter</RefSchemaName>
+      <RefTableName>Users</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="257" parent="234" name="fk_Mentions_Tweet">
+      <ColNames>TweetId</ColNames>
+      <RefSchemaName>Kwetter</RefSchemaName>
+      <RefTableName>Tweets</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="258" parent="235" name="RoleId">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="259" parent="235" name="Role">
+      <Position>2</Position>
+      <DataType>varchar(45)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="260" parent="235" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>RoleId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="261" parent="236" name="TweetId">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="262" parent="236" name="Topic">
+      <Position>2</Position>
+      <DataType>varchar(45)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="263" parent="236" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>TweetId
+Topic</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="264" parent="236" name="TweetId">
+      <ColNames>TweetId</ColNames>
+      <RefSchemaName>Kwetter</RefSchemaName>
+      <RefTableName>Tweets</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="265" parent="237" name="Id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="266" parent="237" name="Body">
+      <Position>2</Position>
+      <DataType>varchar(140)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="267" parent="237" name="UserId">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="268" parent="237" name="UserId_idx">
+      <ColNames>UserId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="269" parent="237" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="270" parent="237" name="UserId">
+      <ColNames>UserId</ColNames>
+      <RefSchemaName>Kwetter</RefSchemaName>
+      <RefTableName>Users</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="271" parent="238" name="UserId">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="272" parent="238" name="RoleId">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="273" parent="238" name="fk_UserRoles_Role_idx">
+      <ColNames>RoleId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="274" parent="238" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>UserId
+RoleId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="275" parent="238" name="fk_UserRoles_User">
+      <ColNames>UserId</ColNames>
+      <RefSchemaName>Kwetter</RefSchemaName>
+      <RefTableName>Users</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="276" parent="238" name="fk_UserRoles_Role">
+      <ColNames>RoleId</ColNames>
+      <RefSchemaName>Kwetter</RefSchemaName>
+      <RefTableName>Roles</RefTableName>
+      <RefColNames>RoleId</RefColNames>
+    </foreign-key>
+    <column id="277" parent="239" name="Id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="278" parent="239" name="Username">
+      <Position>2</Position>
+      <DataType>varchar(45)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="279" parent="239" name="Password">
+      <Position>3</Position>
+      <DataType>varchar(45)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="280" parent="239" name="ProfilePicture">
+      <Position>4</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="281" parent="239" name="Bio">
+      <Position>5</Position>
+      <DataType>varchar(140)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="282" parent="239" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>

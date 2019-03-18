@@ -1,27 +1,43 @@
+package Domain;
+
+import Logic.PasswordHash;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
+import javax.json.Json;
+import javax.json.JsonObject;
 import javax.persistence.*;
-import java.awt.*;
 import java.util.List;
 
-@NamedQuery(name = "getAllUsers", query = "select U from User U")
+@NamedQueries ({ @NamedQuery(name = "getAllUsers", query = "select U from User U"),
+                 @NamedQuery(name = "getUserByUsername", query = "select U from User U where U.username = :username"),
+                 @NamedQuery(name = "authenticateUser", query = "SELECT s FROM User s WHERE s.username = :username AND s.password = :password")
+})
 @Entity
 public class User {
     private String username;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private final long id;
-    private Image profilePicture;
+    private long id;
+    private String profilePicture;
     private String bio;
+    private String password;
+    @ManyToMany(cascade = CascadeType.PERSIST)
     private List<Tweet> tweets;
+    @ManyToMany(cascade = CascadeType.PERSIST)
     private List<User> followers;
+    @ManyToMany(cascade = CascadeType.PERSIST)
     private List<User> following;
+    @ElementCollection
     private List<Role> roles;
 
-    public User(String username, int id){
+    public User(String username, String bio, String password){
         this.username = username;
-        this.id = id;
+        this.bio = bio;
+        this.password = PasswordHash.stringToHash(password);
+    }
+
+    public User() {
     }
 
     public long getId(){
@@ -36,11 +52,11 @@ public class User {
         this.username = username;
     }
 
-    public Image getProfilePicture(){
+    public String getProfilePicture(){
         return profilePicture;
     }
 
-    public void setProfilePicture(){
+    public void setProfilePicture(String profilePicture){
         this.profilePicture = profilePicture;
     }
 
@@ -76,7 +92,11 @@ public class User {
         return followers;
     }
 
-    public void addFolower(User follower){
+    public void removeFollower(User user){
+        followers.remove(user);
+    }
+
+    public void addFollower(User follower){
         followers.add(follower);
     }
 
@@ -95,5 +115,4 @@ public class User {
     public void setRoles(Role role){
         roles.add(role);
     }
-
 }

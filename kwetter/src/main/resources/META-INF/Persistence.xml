@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
-    <persistence-unit name="Kwetter">
-        <jta-data-source>jdbc:mysql://localhost:3306/Kwetter</jta-data-source>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    <persistence-unit name="Kwetter" transaction-type="JTA">
+        <jta-data-source>jdbc/Kwetter</jta-data-source>
+        <class>Domain.Role</class>
+        <class>Domain.User</class>
+        <class>Domain.Tweet</class>
+        <shared-cache-mode>NONE</shared-cache-mode>
         <properties>
-            <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
-            <property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>
+            <property name="eclipselink.ddl-generation" value="create-tables"/>
+            <property name="eclipselink.logging.logger" value="DefaultLogger"/>
+            <property name="eclipselink.logging.level" value="FINE"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="KwetterTest" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>Domain.Role</class>
+        <class>Domain.User</class>
+        <class>Domain.Tweet</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3307/kwetter"/>
+            <property name="javax.persistence.jdbc.password" value="8353dzfjkb910te"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="eclipselink.ddl-generation" value="create-tables"/>
+            <property name="eclipselink.logging.logger" value="DefaultLogger"/>
+            <property name="eclipselink.logging.level" value="FINE"/>
         </properties>
     </persistence-unit>
 </persistence>

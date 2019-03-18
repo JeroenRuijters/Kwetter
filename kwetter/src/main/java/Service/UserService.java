@@ -1,8 +1,6 @@
 package Service;
 
-import DAO.TweetProvider;
 import DAO.UserProvider;
-import Domain.Tweet;
 import Domain.User;
 
 import javax.ejb.Stateless;
@@ -10,15 +8,12 @@ import javax.inject.Inject;
 import java.util.List;
 
 @Stateless
-public class KwetterService {
+public class UserService {
 
     @Inject
     private UserProvider userProvider;
 
-    @Inject
-    private TweetProvider tweetProvider;
-
-    public KwetterService(){
+    public UserService(){
 
     }
 
@@ -30,7 +25,7 @@ public class KwetterService {
         return userProvider.getAllUsers();
     }
 
-    public List<User> getAllFolowing(String username){
+    public List<User> getAllFollowing(String username){
         return userProvider.getAllFollowing(username);
     }
 
@@ -60,5 +55,21 @@ public class KwetterService {
             return true;
         }
         return false;
+    }
+
+    public void addFollower(String username, String followername){
+        userProvider.addFollower(username, followername);
+    }
+
+    public void removeFollower(String username, String followername){
+        userProvider.removeFollower(username, followername);
+    }
+
+    public User authenticateUser(String login, String password){
+        return userProvider.authenticateUser(login, password);
+    }
+
+    public void setUserProvider(UserProvider userProvider){
+        this.userProvider = userProvider;
     }
 }

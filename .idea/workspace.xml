@@ -1,16 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Kwetter:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c8db16-96ab-4167-93c5-924553e950b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/TweetProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/TweetProviderImpl.java" afterDir="false" />
+    <list default="true" id="f6c8db16-96ab-4167-93c5-924553e950b7" name="Default Changelist" comment="Transfer to desktop">
+      <change afterPath="$PROJECT_DIR$/kwetter/META-INF/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwetter/kwetter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwetter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Kwetter_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Kwetter_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2dc8ca3b-8b4f-4abf-8b43-cc1a33720911.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2dc8ca3b-8b4f-4abf-8b43-cc1a33720911.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JPA_2_0_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/JPA_2_0_2_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kwetter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kwetter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/UserProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/UserProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/java/API/Activation.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/java/API/Activation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/java/API/LoginResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/java/API/LoginResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/java/API/TweetResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/java/API/TweetResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/java/API/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/java/API/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/java/Annotations/TokenRequired.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/java/Annotations/TokenRequired.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/java/DAO/TweetProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/java/DAO/TweetProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/java/DAO/TweetProviderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/java/DAO/TweetProviderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/java/DAO/UserProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/java/DAO/UserProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/java/DAO/UserProviderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/java/DAO/UserProviderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/java/Domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/java/Domain/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/java/Domain/Tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/java/Domain/Tweet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/java/Domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/java/Domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/java/Logic/KeyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/java/Logic/KeyGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/java/Service/TweetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/java/Service/TweetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/java/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/java/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/main/resources/META-INF/Persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/main/resources/META-INF/Persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/test/java/API/UserResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/test/java/API/UserResourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/test/java/Service/TweetServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/test/java/Service/TweetServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/test/java/Service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/test/java/Service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwetter/src/test/java/Util/DatabaseCleaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/kwetter/src/test/java/Util/DatabaseCleaner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/kwetter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,30 +64,34 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="Kwetter@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Kwetter@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Kwetter@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Kwetter: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Kwetter@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Kwetter: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="Tweets: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/User.java">
+        <entry file="file://$PROJECT_DIR$/kwetter/src/test/java/Service/UserServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DAO/UserProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="233">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,53 +100,104 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DAO/TweetProvider.java">
+        <entry file="file://$PROJECT_DIR$/kwetter/src/test/java/API/UserResourceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+            <state relative-caret-position="131">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kwetter/src/test/java/Util/DatabaseCleaner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kwetter/src/test/java/Service/TweetServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-82">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/DAO/TweetProviderImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+              <folding>
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/Domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="58" column="55" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1629#1630#0" expanded="true" />
+                <element signature="e#1681#1682#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kwetter/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DAO/TweetProviderImpl.java">
+        <entry file="file://$PROJECT_DIR$/kwetter/META-INF/application.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/Role.java">
+        <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/DAO/UserProviderImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="151">
+              <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/Tweet.java">
+        <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/Domain/Tweet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="128">
+              <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#1131#1132#0" expanded="true" />
-                <element signature="e#1160#1161#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,6 +209,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Tag Library Descriptor" />
         <option value="Class" />
       </list>
     </option>
@@ -140,24 +228,73 @@
       <list>
         <option value="$PROJECT_DIR$/src/Domain/vsdv.java" />
         <option value="$PROJECT_DIR$/src/Domain/Role.java" />
-        <option value="$PROJECT_DIR$/src/Domain/User.java" />
-        <option value="$PROJECT_DIR$/src/Domain/Tweet.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2dc8ca3b-8b4f-4abf-8b43-cc1a33720911/console.sql" />
         <option value="$PROJECT_DIR$/src/DAO/DAOFacade.java" />
         <option value="$PROJECT_DIR$/src/DAO/TweetDAO.java" />
         <option value="$PROJECT_DIR$/src/DAO/TweetDAOImplLocal.java" />
         <option value="$PROJECT_DIR$/src/DAO/UserProvider.java" />
-        <option value="$PROJECT_DIR$/src/DAO/TweetProvider.java" />
         <option value="$PROJECT_DIR$/src/DAO/TweetProviderImpl.java" />
+        <option value="$PROJECT_DIR$/src/Domain/User.java" />
+        <option value="$PROJECT_DIR$/src/Domain/Tweet.java" />
+        <option value="$PROJECT_DIR$/src/DAO/UserProviderImpl.java" />
+        <option value="$PROJECT_DIR$/src/Service/KwetterService.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/Service/KwetterService.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/Domain/Role.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/DAO/API/TweetResource.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/resources/Persistance.fxml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2dc8ca3b-8b4f-4abf-8b43-cc1a33720911/console.sql" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/resources/Persistence.xml" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/Domain/Topic.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/Annotations/TokenRequired.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/kwetter/src/test/java/DAO/TweetDAOTest.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/DAO/TweetProvider.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/resources/META-INF/Persistence.xml" />
+        <option value="$PROJECT_DIR$/kwetter/src/test/java/DAO/TweetProviderTest.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/test/resources/META-INF/Persistence.xml" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/API/TweetResource.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/API/HttpFilter.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/API/Activation.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/CORSFilter.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/Service/TweetService.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/PasswordHash.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/DAO/UserProvider.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/API/UserResource.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/DAO/TweetProviderImpl.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/Domain/Tweet.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/DAO/UserProviderImpl.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/API/LoginResource.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/Logic/KeyGenerator.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/test/java/Service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/test/java/API/UserResourceTest.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/test/java/Util/DatabaseCleaner.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/test/java/Service/TweetServiceTest.java" />
+        <option value="$PROJECT_DIR$/kwetter/src/main/java/Domain/User.java" />
+        <option value="$PROJECT_DIR$/kwetter/pom.xml" />
+        <option value="$PROJECT_DIR$/kwetter/META-INF/application.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1299" />
+    <option name="height" value="741" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -173,23 +310,60 @@
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
               <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="kwetter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="kwetter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
               <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="kwetter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="DAO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
               <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="kwetter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,19 +378,34 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="2dc8ca3b-8b4f-4abf-8b43-cc1a33720911" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552240721892" />
-    <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552909709151" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../S6-JEA-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.31494254" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kwetter/src/test" />
+      <recent name="$PROJECT_DIR$/kwetter/src/test/java" />
+    </key>
     <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
       <recent name="DAO" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/kwetter" />
+      <recent name="$PROJECT_DIR$/kwetter/src/main" />
+      <recent name="$PROJECT_DIR$/kwetter/src/main/resources/META-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -231,7 +420,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TweetServiceTest">
     <configuration name="GlassFish 5.184.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.184.0" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Kwetter_war_exploded" />
       <deployment>
@@ -245,12 +434,27 @@
         <option name="COMPATIBILITY" value="false" />
         <option name="VIRTUAL_SERVER" />
         <option name="USERNAME" value="admin" />
-        <option name="PASSWORD" value="" />
+        <option name="CREDENTIAL_ALIAS" />
       </server-settings>
       <predefined_log_file enabled="true" id="GlassFish" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="9009" />
       </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
@@ -258,6 +462,91 @@
         </option>
       </method>
     </configuration>
+    <configuration name="TweetProviderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kwetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DAO" />
+      <option name="MAIN_CLASS_NAME" value="DAO.TweetProviderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TweetServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kwetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service" />
+      <option name="MAIN_CLASS_NAME" value="Service.TweetServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kwetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API" />
+      <option name="MAIN_CLASS_NAME" value="API.UserResourceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kwetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service" />
+      <option name="MAIN_CLASS_NAME" value="Service.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.createUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kwetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service" />
+      <option name="MAIN_CLASS_NAME" value="Service.UserServiceTest" />
+      <option name="METHOD_NAME" value="createUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TweetServiceTest" />
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.UserResourceTest" />
+        <item itemvalue="JUnit.UserServiceTest.createUserTest" />
+        <item itemvalue="JUnit.TweetProviderTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -273,18 +562,67 @@
       <workItem from="1552141606022" duration="5787000" />
       <workItem from="1552147865099" duration="1115000" />
       <workItem from="1552149379792" duration="22000" />
-      <workItem from="1552236877366" duration="2685000" />
+      <workItem from="1552235392254" duration="807000" />
+      <workItem from="1552241003225" duration="5343000" />
+      <workItem from="1552293560096" duration="14672000" />
+      <workItem from="1552376873918" duration="801000" />
+      <workItem from="1552465722478" duration="6143000" />
+      <workItem from="1552477199516" duration="3804000" />
+      <workItem from="1552649604496" duration="21629000" />
+      <workItem from="1552674508058" duration="21574000" />
+      <workItem from="1552896124144" duration="7572000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UserResourceTest - 2019.03.16 at 02h 32m 28s.xml">
+      <configuration name="UserResourceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.03.16 at 15h 54m 20s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.03.16 at 16h 16m 33s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.03.16 at 16h 20m 42s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.03.16 at 16h 45m 48s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.03.16 at 16h 46m 32s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TweetServiceTest - 2019.03.16 at 21h 27m 25s.xml">
+      <configuration name="TweetServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TweetServiceTest - 2019.03.18 at 11h 44m 13s.xml">
+      <configuration name="TweetServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TweetServiceTest - 2019.03.18 at 11h 45m 17s.xml">
+      <configuration name="TweetServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TweetServiceTest - 2019.03.18 at 11h 46m 15s.xml">
+      <configuration name="TweetServiceTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11749000" />
+    <option name="totallyTimeSpent" value="91409000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26439232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49029127" visible="true" weight="0.26656026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -292,106 +630,307 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info id="Persistence" order="8" side_tool="true" />
+      <window_info id="Persistence" order="8" sideWeight="0.50970876" side_tool="true" weight="0.33918595" />
+      <window_info id="JavaEE:App" order="9" sideWeight="0.50728154" side_tool="true" weight="0.33918595" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Database Console" order="14" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32899022" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32899022" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" order="15" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="JPA Console" order="16" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32960895" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32960895" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="JSF" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Transfer to desktop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transfer to desktop" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Domain/vsdv.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2dc8ca3b-8b4f-4abf-8b43-cc1a33720911/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/DAO/DAOFacade.java" />
     <entry file="file://$PROJECT_DIR$/src/DAO/TweetDAO.java" />
     <entry file="file://$PROJECT_DIR$/src/DAO/TweetDAOImplLocal.java" />
-    <entry file="file://$PROJECT_DIR$/src/Domain/Role.java">
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/resources/Persistance.fxml" />
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/resources/Persistance.tld" />
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/kwetter_javaEEApplication_exploded.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/Kwetter_javaEEApplication_exploded.xml" />
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/DAO/FollowersEntity.java" />
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/DAO/FollowersEntityPK.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2dc8ca3b-8b4f-4abf-8b43-cc1a33720911/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/User.java">
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/Domain/Topic.java" />
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/Annotations/TokenRequired.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="120">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/kwetter.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="213" selection-start-line="1" selection-start-column="213" selection-end-line="1" selection-end-column="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/target/classes/Domain/Tweet.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/resources/META-INF/Persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/test/java/resources/META-INF/Persistence.xml" />
+    <entry file="file://$PROJECT_DIR$/kwetter/src/test/java/DAO/TweetProviderTest.java" />
+    <entry file="file://$PROJECT_DIR$/kwetter/src/test/resources/META-INF/Persistence.xml" />
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/API/HttpFilter.java" />
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/API/Activation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Tweet.java">
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/Service/TweetService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/UserProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="360">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/TweetProvider.java">
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/DAO/UserProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        <state relative-caret-position="360">
+          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/Logic/CORSFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/API/TweetResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/TweetProviderImpl.java">
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/API/UserResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="-345">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/DAO/TweetProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/Domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/Logic/PasswordHash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/API/LoginResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/Logic/KeyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="94" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/Service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/test/java/Service/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/test/java/API/UserResourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/test/java/Util/DatabaseCleaner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/test/java/Service/TweetServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/DAO/TweetProviderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+          <folding>
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/DAO/UserProviderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/Domain/Tweet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/src/main/java/Domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="58" column="55" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwetter/META-INF/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -401,7 +940,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>Kwetter:war exploded</last-edited>
+          <last-edited>kwetter:javaEEApplication exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -418,7 +957,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.31494254" />
               </list>
             </option>
           </splitter-proportions>
@@ -437,7 +976,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8.0_191</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -449,11 +988,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Kwetter</last-edited>
+          <last-edited>Web|kwetter</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.31494254" />
               </list>
             </option>
           </splitter-proportions>
@@ -473,7 +1012,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>JPA 2.0-2.0</last-edited>
+          <last-edited>Maven: javax.ws.rs:javax.ws.rs-api:2.0.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
